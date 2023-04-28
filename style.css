@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#scannerContainer {
+	width: 100%;
+	height: 100vh;
+	background-color: #000;
+}
+
+#scanButton {
+	display: block;
+	margin: 20px auto;
+	padding: 10px 20px;
+	background-color: #0066cc;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#scannedBarcode {
+	margin: 20px auto;
+	padding: 10px;
+	background-color: #f0f0f0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+}
